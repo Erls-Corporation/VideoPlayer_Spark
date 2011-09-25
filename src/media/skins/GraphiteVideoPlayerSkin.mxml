@@ -90,7 +90,7 @@
                             focusIn="event.target.depth=1" focusOut="event.target.depth=0" />
                     
                     <!-- scrubbar + the playHeadTime/totalTime labels -->
-                    <s:Group left="39" right="75" top="0" bottom="0">
+                    <s:Group left="39" right="37" top="0" bottom="0">
                           
                         <!-- background for scrubbar + the playHeadTime/totalTime -->
                         <s:Rect left="0" right="0" top="0" bottom="0" height="24">
@@ -135,13 +135,13 @@
                     
                     <!--- Defines the appearance of the volume bar. -->
                     <s:VolumeBar id="volumeBar" snapInterval=".01" stepSize=".01" liveDragging="true"
-                            right="37" bottom="0" 
+                            right="0" bottom="0" 
                             skinClass="media.skins.graphite.mediaClasses.normal.VolumeBarSkin"
                             skinClass.fullScreenStates="media.skins.graphite.mediaClasses.fullScreen.VolumeBarSkin"
                             focusIn="event.target.depth=1" focusOut="event.target.depth=0" />
                     
                     <!--- Defines the label and appearance of the Fullscreen button. -->
-                    <s:Button id="fullScreenButton" right="0" bottom="0" label="Fullscreen" 
+                    <s:Button id="fullScreenButton" right="0" bottom="0" label="Fullscreen" visible="false"
                             skinClass="media.skins.graphite.mediaClasses.normal.FullScreenButtonSkin"
                             skinClass.fullScreenStates="media.skins.graphite.mediaClasses.fullScreen.FullScreenButtonSkin"
                             focusIn="event.target.depth=1" focusOut="event.target.depth=0" />

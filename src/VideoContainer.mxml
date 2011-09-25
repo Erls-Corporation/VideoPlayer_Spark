@@ -10,14 +10,19 @@
 	
 	<fx:Script>
 		<![CDATA[
+			import Pages.FirstPage;
+			
 			import media.MyVideoPlayer;
 			
+			import spark.components.Button;
+				
 			private function init():void
 			{
-				var videoPlayer:MyVideoPlayer = new MyVideoPlayer();
-				addElement(videoPlayer);
-		
+				var myPage:FirstPage = new FirstPage();
+				addElement(myPage);
+				
 			}
+			
 		]]>
 	</fx:Script>
 	
